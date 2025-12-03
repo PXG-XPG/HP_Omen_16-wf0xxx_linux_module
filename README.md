@@ -9,10 +9,10 @@ Currently working:
 
 ## Installation
 
-1. Install dkms and kernel headers if needed (already present on Ubuntu)
+1. Install dkms and kernel headers if needed (For archlinux: `sudo pacman -S dkms linux-headers`)
 
-1. Run `sudo make install`
+2. Run `sudo make install`
+
+3. Use [omenix](https://github.com/noahpro99/omenix)
 
 Module will be built and installed, and DKMS will manage rebuilding it on kernel updates.
-
-## TODO
